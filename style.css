@@ -1,108 +1,183 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    font-family: "Poppins";
+    text-decoration: none;
 }
 
 body {
+    background-color: #DFDDDD;
     height: 100vh;
-    background-color: #c9ccd1;
 }
 
-.content {
-    height: 100%;
+/* Header Starts */
+.container {
+    background-color: white;
+    width: 1150px;
+    height: 85px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 50px 145px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 150px;
 }
 
-.title p {
-    color: blue;
-    font-size: 70px;
-    font-weight: bold;
-    font-family: "Roboto";
+.logo {
+    width: 73px;
+    height: 45px;
+    margin-left: 30px;
 }
 
-.description {
-    width: 450px;
-    height: 250px;
-}
-
-
-.description p {
-    font-family: "Roboto";
-    width: 100%;
-    height: 100%;
-    font-size: 25px;
+.logo p {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px
 }
 
 
-
-
-
-
-
-.signIn {
-    background-color: #fff;
-    width: 350px;
-    height: 350px;
-    padding: 20px;
+ul {
+    display: flex;
     align-items: center;
-    border: 1px solid white;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+ul li {
+    margin: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Header Ends  */
+
+/* Main Section Starts */
+
+#main {
+    width: 1150px;
+    height: 498px;
+    margin: 0px 145px;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
-
-form {
-    border-bottom: 1px solid gray;
-}
-
-input {
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 10px;
-    border: 1px solid rgb(222, 218, 218);
-    border-radius: 7px;
-    outline: none;
-    font-family: "Roboto";
-    font-size: 15px;
+    background-image: url("/image/Travel.png");
 
 }
 
-input:focus {
-    border-color: blue;
-}
-
-.button {
-    cursor: pointer;
-    background-color: blue;
-    color: white;
-}
-
-a {
-    text-decoration: none;
-    color: blue;
+.content {
+    width: 1000px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Roboto";
-    margin-bottom: 25px;
+}
+
+.content p {
+    font-weight: 700;
+    font-size: 82px;
+    line-height: 72px;
+    margin-left: 250px;
+    color: #fff;
+}
+
+/* Main Section Ends */
+
+/* Footer Starts */
+.forFooter {
+    display: flex;
+    align-items: center;
+    width: 1150px;
+    height: 155px;
+    margin-top: 25px;
+    margin: 66px 145px;
+    border-radius: 10px;
+    background-color: #fff;
+    justify-content: space-between;
 }
 
 
-a:hover {
-    text-decoration: underline;
+.footers-logo {
+    width: 73px;
+    height: 45px;
+    margin-left: 30px;
+    padding: 20px 0px 0px 0px;
 }
 
-.signUp{
-    border: 1px solid green;
-    width: 200px;
-    height: 50px;
-    margin: 20px 0px 0px 50px;
-    padding: 10px;
+.footers-logo p {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px
+}
+
+.title {
+    margin-left: 30px;
+}
+
+.title p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #B1B1B1;
+    margin-top: 25px;
+}
+
+.social-media {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.social-media i {
+    border: 1px solid gray;
+    border-radius: 50px;
+    background-color: gray;
     color: white;
-    background-color: green;
-    border-radius: 7px;
+    padding: 10px;
+    margin-right: 25px;
 }
+
+.subscribe p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.form-title {
+    width: 235px;
+    height: 35px;
+}
+
+.form-title p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #B1B1B1;
+}
+
+.for-subscribe {
+    display: flex;
+    margin-right: 10px;
+    margin-top: 14px;
+}
+
+input {
+    width: 145px;
+    height: 43px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    outline: none;
+    padding: 15px;
+}
+
+a {
+    height: 43px;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: gray;
+}
+
+/* Footer Ends */
